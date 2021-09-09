@@ -1,0 +1,43 @@
+.container {
+    padding: 9px;
+    color: #fff;
+}
+
+.header {
+    font-size: 0.85rem;
+}
+
+.exchangelist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.listitem {
+    display: flex;
+    margin: 10px 0;
+    position: relative;
+}
+
+.name {
+    width: 150px;
+}
+
+.index {
+    width: 100px;
+    color: var(--exchange-green);
+}
+
+.percent {
+    color: var(--exchange-green);
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--exchange-green);
+    position: absolute;
+    top: 5px;
+    left: -20px;
+}

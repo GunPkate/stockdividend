@@ -1,0 +1,72 @@
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: var(--box-border-radius);
+    color: slateblue;
+}
+
+.header {
+    padding: 10px 0;
+    border-bottom: 2px solid #f1f1f1;
+    margin-bottom: 15px;
+    color: #1d1d1d;
+    font-size: var(--h1-fontsize);
+}
+
+.listHeader,
+.listItem { 
+    display: flex;
+    margin: 12px 0;
+}
+
+.listItem { 
+    color: #585858
+}
+
+.stockList {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.listContainer {
+    padding: 20px;
+}
+
+.listItemName,
+.nameHeader {
+    width: 150px;
+}
+
+.listItemTicker,
+.tickerHeader {
+    width: 90px;
+}
+
+.listItemAsk,
+.askHeader,
+.listItemBid,
+.bidHeader {
+    width: 100px;
+}
+
+.dpsspentHeader,
+.listItemDpsspent
+{
+    width: 120px;
+}
+
+.dpsHeader,
+.listItemDps{
+    width: 175px;
+}
+
+.listItemPE,
+.peHeader{
+    width: 75px
+}
+
+.listItemSector,
+.sectorHeader{
+    width: 200px;
+}

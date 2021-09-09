@@ -1,0 +1,45 @@
+.header {
+    padding: 10px;
+    background: var(--header-gradient-top);
+    display:flex;
+    justify-content: space-around;
+}
+
+.container {
+    max-width: var(--site-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logoContainer {
+   display: flex;
+   align-items: center; 
+   color: #fff
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    margin-right: 8px;
+}
+
+.userContainer {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.user {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-right: 8px;
+    color: var(--header-gradient-top);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
